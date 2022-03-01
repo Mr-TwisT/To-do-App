@@ -1,0 +1,38 @@
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.task p{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.btnDone{
+  margin-left: 10px;
+  padding: 0 2px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btnDone:hover{
+  cursor: pointer;
+  background: grey;
+}
+
+.btnDelete{
+  margin-left: 1px;
+  padding: 0 5px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btnDelete:hover{
+  cursor: pointer;
+  background: darkred;
+}
